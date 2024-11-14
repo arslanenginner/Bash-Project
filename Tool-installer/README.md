@@ -2,7 +2,8 @@ Tool Installation Script
 
 This is a bash script to automate the setup of various penetration testing and security tools on a Debian-based system (e.g., Ubuntu). It installs a set of essential tools for OSINT, vulnerability scanning, information gathering, and more.
 
-![Tool Image](https://raw.githubusercontent.com/arslanenginner/Asserts/main/tool_img.png)
+![Tool Image](https://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@raw.githubusercontent.com/arslanenginner/Asserts/main/tool_img.png)
+
 
 ## Table of Contents
 
