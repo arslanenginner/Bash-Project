@@ -1,4 +1,4 @@
-# M@lware Tool Installation Script
+Tool Installation Script
 
 This is a bash script to automate the setup of various penetration testing and security tools on a Debian-based system (e.g., Ubuntu). It installs a set of essential tools for OSINT, vulnerability scanning, information gathering, and more.
 
@@ -9,8 +9,6 @@ This is a bash script to automate the setup of various penetration testing and s
 - [Requirements](#requirements)
 - [Usage](#usage)
 - [Tools Installed](#tools-installed)
-- [Customization](#customization)
-- [Contributing](#contributing)
 
 ## Overview
 
@@ -53,20 +51,34 @@ sudo ./tool_install.sh
 ```
 This will automatically update the system, install necessary dependencies, and set up the tools.
 
-4. Enjoy
+### 4. Enjoy
+
 Once the script completes, you will have a fully configured setup with various penetration testing and OSINT tools.
 
-Tools Installed
+## Tools Installed
+
 The script installs a variety of tools, including but not limited to:
 
-Web & Network Tools
-nmap, massdns, httpx, subfinder, assetfinder, waybackurls, gf
-findomain, dirsearch, lazyrecon, wpscan
-Python Tools
-eyewitness, py-altdns, charset-normalizer, jsbeautifier
-Go Tools
-anew, qsreplace, katana, nuclei, shuffledns, gf
-GitHub Repositories
-SecretFinder, Zphisher, Subzy, Sniper, OneForAll, Bug-Bounty-Search-Engine
-GitDorker, ParamSpider, Burpsuite-Professional, Sn1per, Gopherus
-Additionally, the script installs some fun tools like figlet and lolcat for ASCII output.
+### Web & Network Tools
+
+- `nmap`, `massdns`, `httpx`, `subfinder`, `assetfinder`, `waybackurls`, `gf`
+- `findomain`, `dirsearch`, `lazyrecon`, `wpscan`
+
+### Python Tools
+
+- `eyewitness`, `py-altdns`, `charset-normalizer`, `jsbeautifier`
+
+### Go Tools
+
+- `anew`, `qsreplace`, `katana`, `nuclei`, `shuffledns`, `gf`
+
+### GitHub Repositories
+
+- `SecretFinder`, `Zphisher`, `Subzy`, `Sniper`, `OneForAll`, `Bug-Bounty-Search-Engine`
+- `GitDorker`, `ParamSpider`, `Burpsuite-Professional`, `Sn1per`, `Gopherus`
+
+Additionally, the script installs some fun tools like **figlet** and **lolcat** for ASCII output.
+
+## Customization
+
+Feel free to customize the script for your specific needs. You can add or remove tools, modify installation steps, or tweak configurations as required. For advanced users, you can fork the repository and submit your changes.
