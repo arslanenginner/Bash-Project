@@ -1,12 +1,4 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M@lware Tool Installation Script</title>
-</head>
-<body>
     <h1>M@lware Tool Installation Script</h1>
     <p>This is a bash script to automate the setup of various penetration testing and security tools on a Debian-based system (e.g., Ubuntu). It installs a set of essential tools for OSINT, vulnerability scanning, information gathering, and more.</p>
     
@@ -85,5 +77,3 @@ cd Bash-Project/Tool-installer/</code></pre>
 
     <p>Additionally, the script installs some fun tools like figlet and lolcat for ASCII output.</p>
 
-</body>
-</html>
