@@ -1,5 +1,4 @@
-
-###Tool Installation Script
+##Tool Installation Script
 
 This is a bash script to automate the setup of various penetration testing and security tools on a Debian-based system (e.g., Ubuntu). It installs a set of essential tools for OSINT, vulnerability scanning, information gathering, and more.
 
