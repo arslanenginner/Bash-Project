@@ -40,18 +40,17 @@ Before running the script, ensure you have the following:
 git clone https://github.com/arslanenginner/Bash-Project.git
 cd Bash-Project/Tool-installer/
 
+```
 2. Make the Script Executable
 Ensure the script is executable by running:
-
-bash
-Copy code
+```bash
 chmod +x tool_install.sh
+```
 3. Run the Script
 Execute the script with sudo privileges:
-
-bash
-Copy code
+```bash
 sudo ./tool_install.sh
+```
 This will automatically update the system, install necessary dependencies, and set up the tools.
 
 4. Enjoy
