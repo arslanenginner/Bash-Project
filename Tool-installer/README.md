@@ -1,4 +1,11 @@
-Tool Installation Script
+#Tool Installation Script
+ __  __   ____  _                        
+|  \/  | / __ \| |_      ____ _ _ __ ___ 
+| |\/| |/ / _` | \ \ /\ / / _` | '__/ _ \
+| |  | | | (_| | |\ V  V / (_| | | |  __/
+|_|  |_|\ \__,_|_| \_/\_/ \__,_|_|  \___|
+         \____/                          
+
 
 This is a bash script to automate the setup of various penetration testing and security tools on a Debian-based system (e.g., Ubuntu). It installs a set of essential tools for OSINT, vulnerability scanning, information gathering, and more.
 
