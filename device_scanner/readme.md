@@ -48,16 +48,21 @@ Once the scan completes, you will receive two output files:
 nmap.xml: Raw Nmap scan result.
 nmap.html: Beautifully formatted HTML result for easier viewing.
 
-💡 Example Usage
-Scan a Single Target with Nmap:
+## 💡 Example Usage
 
-Select nmap
-Choose single for the target type
-Enter a target IP or hostname (e.g., 10.10.1.1)
-Select the desired scan options
+### 🧑‍💻 **Scan a Single Target with Nmap:**
 
-Scan a List of Targets with Naabu:
-Select naabu
-Choose file for the target type
-Provide a text file with a list of IPs or hostnames
-Specify port options (e.g., 80,443,8080)
+1. **Select `nmap`** as the scanning tool.
+2. **Choose `single`** for the target type.
+3. **Enter the target IP/hostname** (e.g., `10.10.1.1`).
+4. **Select the desired scan options** (e.g., scan type, ports, scripts, etc.).
+
+---
+
+### 📄 **Scan a List of Targets with Naabu:**
+
+1. **Select `naabu`** as the scanning tool.
+2. **Choose `file`** for the target type.
+3. **Provide a text file** containing a list of IPs or hostnames (one per line).
+4. **Specify port options** (e.g., `80,443,8080`) or choose to scan all ports.
+
