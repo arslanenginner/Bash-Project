@@ -38,8 +38,8 @@ Make sure you have the following tools installed:
 ### 1. Clone the Repository:
 
 ```bash
-git clone https://github.com/yourusername/recon-tool.git
-cd recon-tool
+git clone https://github.com/arslanenginner/Bash-Project.git
+cd Bash-Project/recon-Tool
 ```
 2. Install Dependencies:
 Install the required tools listed above using your package manager or the tool’s installation guides.
@@ -51,11 +51,11 @@ sudo apt install assetfinder subfinder findomain httpx masscan
 🧑‍💻 Usage
 Make the script executable:
 ```
-chmod +x recon_tool.sh
+chmod +x recon.sh
 ```
 Run the Script:
 ```
-./recon_tool.sh
+sudo ./recon.sh
 ```
 
 ## 🧑‍💻 Script Input Prompts
@@ -93,7 +93,7 @@ After running the script, it will create a directory structure like this:
 └── urls/
 ```
 ```bash
-./recon_tool.sh
+sudo ./recon.sh
 ```
 Enter the target domain: example.com
 . Select if you want to scan IPs: y or n
